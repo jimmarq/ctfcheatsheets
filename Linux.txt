@@ -1,0 +1,3 @@
+Linux
+
+ls && cat file.txt # Use && to run two separate commands

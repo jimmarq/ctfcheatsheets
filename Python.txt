@@ -1,0 +1,3 @@
+Python
+
+python file.py # Run a python file

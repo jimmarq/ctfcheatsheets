@@ -1,0 +1,5 @@
+Forensics
+
+Linux tools
+file test.jpg # See basic file information
+

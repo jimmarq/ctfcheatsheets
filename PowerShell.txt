@@ -1,0 +1,5 @@
+PowerShell
+
+Get-Help gci           # Get help for a cmdlet
+Get-Help gci -examples # Show help examples
+Get-Command            # Show all PowerShell commands

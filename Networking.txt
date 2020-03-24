@@ -1,0 +1,9 @@
+Networking
+
+Linux
+ifconfig # show IP information
+ip route # show the default and other routes
+ping     # I really hope you know what this does
+
+Windows
+ipconfig # Basic IP information
