@@ -2,3 +2,5 @@ Linux
 
 ls && cat file.txt # Use && to run two separate commands
 cd # change directory
+grep # search the contents of a file 
+chown # allows you to change the owner and group owner of a file
