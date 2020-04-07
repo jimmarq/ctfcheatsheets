@@ -3,4 +3,7 @@ Linux
 ls && cat file.txt # Use && to run two separate commands
 cd # change directory
 
+
+
+
 df # check disk space usage
