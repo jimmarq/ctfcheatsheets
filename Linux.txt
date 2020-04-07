@@ -7,3 +7,5 @@ cd # change directory
 
 
 df # check disk space usage
+grep # search the contents of a file 
+chown # allows you to change the owner and group owner of a file
