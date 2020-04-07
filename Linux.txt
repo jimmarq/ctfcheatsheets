@@ -1,11 +1,13 @@
 Linux
 
 ls && cat file.txt # Use && to run two separate commands
+netstat # show network statistics
 cd # change directory
 
 
 
 
 df # check disk space usage
+pwd # shows the present working directory
 grep # search the contents of a file 
 chown # allows you to change the owner and group owner of a file
