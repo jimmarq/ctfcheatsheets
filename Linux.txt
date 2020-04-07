@@ -8,6 +8,7 @@ cd # change directory
 
 
 df # check disk space usage
+du #used to estimate file space usage (ex: "du -c" shows the full output and append a total line)
 pwd # shows the present working directory
 grep # search the contents of a file 
 chown # allows you to change the owner and group owner of a file
