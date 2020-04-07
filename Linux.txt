@@ -2,3 +2,5 @@ Linux
 
 ls && cat file.txt # Use && to run two separate commands
 netstat # show network statistics
+cd # change directory
+grep # search the contents of a file
