@@ -9,6 +9,7 @@ cd # change directory
 
 df # check disk space usage
 du #used to estimate file space usage (ex: "du -c" shows the full output and append a total line)
+mv #moves files/directories from one place to another (ex: "mv myfile mynewfilename" # renames 'myfile' to 'mynewfilename')
 pwd # shows the present working directory
 grep # search the contents of a file 
 chown # allows you to change the owner and group owner of a file
