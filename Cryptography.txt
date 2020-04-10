@@ -10,3 +10,6 @@ Asymmetric Algorithms
 
 Other Algorithms
 * Caesar Cipher - simple rotation (example: abc -> bcd)
+
+SHA256 Hashing
+* sha256 (file to be hashed)
