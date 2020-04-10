@@ -16,3 +16,6 @@ SHA1 Hashing
 
 SHA256 Hashing
 * sha256 (file to be hashed)
+
+SHA512 Hashing
+* sha512sum (file to be hashed)
