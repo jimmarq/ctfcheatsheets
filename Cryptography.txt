@@ -19,3 +19,6 @@ SHA256 Hashing
 
 SHA512 Hashing
 * sha512sum (file to be hashed)
+
+MD5 Hashing
+* echo (string) | md5sum
