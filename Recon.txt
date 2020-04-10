@@ -4,3 +4,4 @@ dig -x 192.168.0.1 # DNS reverse lookup
 
 nmap -p1-65535 # Tells nmap to scan all ports
 nmap -T0 / nmap -T5 # T0 is slowest scanning speed, T5 is fastest speed, and 1-4 are in-between
+nmap -v /-vv /-vvv # Increase nmap's verbosity, or the amount of information given about the scan in progress
