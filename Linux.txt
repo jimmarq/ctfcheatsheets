@@ -17,3 +17,5 @@ chown # allows you to change the owner and group owner of a file
 traceroute #Trace the route to HOST 
 
 cat # the cat command which short for “concatenate”, lists the contents of files to the terminal window
+
+ps #shows what current processes are running
