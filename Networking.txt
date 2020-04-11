@@ -11,3 +11,5 @@ sudo apt-get install net-tools # will install basic network tools on linux
 
 ipconfig /renew #gets you an ip address
 ipconfig /release #releases your current ip address
+
+systeminfo # shows you system information, such as processor details, version of windows, computer model
