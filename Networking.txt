@@ -10,3 +10,4 @@ ipconfig # Basic IP information
 sudo apt-get install net-tools # will install basic network tools on linux
 
 ipconfig /renew #gets you an ip address
+ipconfig /release #releases your current ip address
