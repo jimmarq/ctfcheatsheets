@@ -21,3 +21,5 @@ cat # the cat command which short for “concatenate”, lists the contents of f
 ps #shows what current processes are running
 
 w # shows what users are currently logged in and their load averages. Also shows other useful information, such as login name, remote host, etc
+
+find # searches through files, strings, and directories to find anything that has that file name that is given
