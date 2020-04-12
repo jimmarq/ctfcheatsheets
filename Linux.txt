@@ -33,3 +33,7 @@ ls -a # show hidden files in directory
 >> # append the contents of one file into the end of another (used together with the cat command ex: cat file1 >> file2)
 
 dig # query DNS name server information (ex: dig linx.org)
+
+head # print first ten lines of a file (ex: head /etc/passwd)
+
+tail # print last ten lines of a file (ex: tail access.log)
