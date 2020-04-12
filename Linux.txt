@@ -25,3 +25,5 @@ w # shows what users are currently logged in and their load averages. Also shows
 find # searches through files, strings, and directories to find anything that has that file name that is given
 
 sha1sum # generate a sha1sum for the message digest of a file, string, IP address, etc.
+
+ls -a # show hidden files in directory
