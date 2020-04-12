@@ -27,3 +27,7 @@ find # searches through files, strings, and directories to find anything that ha
 sha1sum # generate a sha1sum for the message digest of a file, string, IP address, etc.
 
 ls -a # show hidden files in directory
+
+> # output redirect, takes the command to the left of the '>' operator and outputs it into what is on the right side (ex: music.mp3 > /user/music)
+
+>> # append the contents of one file into the end of another (used together with the cat command ex: cat file1 >> file2)
