@@ -9,3 +9,7 @@ set-executionpolicy # allows you to change execute policy
 clear-history #used to delete specific commands in the history
 
 copy-item # takes an item and copies it to another location
+
+New-Item # create a new file or folder depending on location of item (ex: New-Item temp -ItemType "directory")
+
+Sort-Object # sort objects by property values (ex: gci -Path C:\Test | Sort-Object)
