@@ -3,3 +3,8 @@ Scanning
 Nmap Examples
 nmap 192.168.0.0 # Simple scan
 
+Three kinds 
+Port Scanning # used to list open ports and services
+Vulnerability Scanning # used to discover possible vulnerabilities
+Network Scanning # used to list IP addresses
+
