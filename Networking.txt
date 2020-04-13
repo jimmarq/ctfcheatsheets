@@ -4,6 +4,11 @@ Linux
 ifconfig # show IP information
 ip route # show the default and other routes
 ping     # I really hope you know what this does
+traceroute # traces full path from local system to another network system
+route # displays IP route table
+netstat # displays useful network subsystem information
+nmap # a network mapping tool
+nslookup # a command line utility that queries DNS servers
 
 Windows
 ipconfig # Basic IP information
