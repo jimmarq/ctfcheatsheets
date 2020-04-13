@@ -13,3 +13,9 @@ copy-item # takes an item and copies it to another location
 New-Item # create a new file or folder depending on location of item (ex: New-Item temp -ItemType "directory")
 
 Sort-Object # sort objects by property values (ex: gci -Path C:\Test | Sort-Object)
+
+Get-Process # list all currrntly running processes 
+
+Where-Object # allows to filter a dataset with a pipe 
+
+Debug-Process # allows to debug a process
