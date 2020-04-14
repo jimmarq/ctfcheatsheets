@@ -23,6 +23,5 @@ Debug-Process # allows to debug a process
 
 cat # gets the contents of a file
 chdir # sets the current working location to a specified location
-
-
+clear # clears the display of the host 
 
