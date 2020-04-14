@@ -36,4 +36,15 @@ dig # query DNS name server information (ex: dig linx.org)
 
 head # print first ten lines of a file (ex: head /etc/passwd)
 
-tail # print last ten lines of a file (ex: tail access.log)
+tail # print last ten lines of a file (ex: tail access.log) 
+
+mkdir # create a folder or directory 
+rmdir # remove a directory  
+touch # Used to create a file
+man   # to know more about a command and how to use it
+cp    # copy a file
+echo  # move data into a file 
+nano  # text editor that shows colors 
+sudo  # SuperUser Do 
+apt-get # to install packages 
+hostname -I # give you your IP address in your network
