@@ -29,3 +29,5 @@ copy, cp, or cpi # will copy and item for you to another location
 del # deletes files and folder
 
 fl # formats list of properties in which every item is on a new line 
+
+gal # gets the aliases for the current session
