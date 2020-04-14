@@ -19,3 +19,7 @@ Get-Process # list all currrntly running processes
 Where-Object # allows to filter a dataset with a pipe 
 
 Debug-Process # allows to debug a process
+
+
+cat # gets the contents of a file
+
