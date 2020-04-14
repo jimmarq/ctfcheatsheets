@@ -5,3 +5,5 @@ python file.py # Run a python file
 pythong myscript.py # runs pythonscript
 
 graft dir # includes all files under dir
+
+len() #returns number of elements in list or characters in string (ex: In[1]: len('Welcome!') Out[1]: 8
