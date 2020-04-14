@@ -25,3 +25,4 @@ cat # gets the contents of a file
 chdir # sets the current working location to a specified location
 clear # clears the display of the host 
 
+copy, cp, or cpi # will copy and item for you to another location
