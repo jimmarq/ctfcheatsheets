@@ -7,3 +7,4 @@ ping     # I really hope you know what this does
 
 Windows
 ipconfig # Basic IP information
+sudo apt-get install net-tools # will install basic network tools on linux

@@ -1,3 +1,50 @@
 Linux
 
 ls && cat file.txt # Use && to run two separate commands
+netstat # show network statistics
+cd # change directory
+rm # removes specified file
+
+
+
+
+df # check disk space usage
+du #used to estimate file space usage (ex: "du -c" shows the full output and append a total line)
+mv #moves files/directories from one place to another (ex: "mv myfile mynewfilename" # renames 'myfile' to 'mynewfilename')
+pwd # shows the present working directory
+grep # search the contents of a file 
+chown # allows you to change the owner and group owner of a file
+traceroute #Trace the route to HOST 
+
+cat # the cat command which short for “concatenate”, lists the contents of files to the terminal window
+
+ps #shows what current processes are running
+
+w # shows what users are currently logged in and their load averages. Also shows other useful information, such as login name, remote host, etc
+
+find # searches through files, strings, and directories to find anything that has that file name that is given
+
+sha1sum # generate a sha1sum for the message digest of a file, string, IP address, etc.
+
+ls -a # show hidden files in directory
+
+> # output redirect, takes the command to the left of the '>' operator and outputs it into what is on the right side (ex: music.mp3 > /user/music)
+
+>> # append the contents of one file into the end of another (used together with the cat command ex: cat file1 >> file2)
+
+dig # query DNS name server information (ex: dig linx.org)
+
+head # print first ten lines of a file (ex: head /etc/passwd)
+
+tail # print last ten lines of a file (ex: tail access.log) 
+
+mkdir # create a folder or directory 
+rmdir # remove a directory  
+touch # Used to create a file
+man   # to know more about a command and how to use it
+cp    # copy a file
+echo  # move data into a file 
+nano  # text editor that shows colors 
+sudo  # SuperUser Do 
+apt-get # to install packages 
+hostname -I # give you your IP address in your network
