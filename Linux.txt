@@ -77,3 +77,4 @@ last # will show the history of the last logged in users
 curl #(followed by url) will get a file or info from a url given
 gzip # compress files into a zip folder 
 tac # will display in list but in reverse order
+watch # can prefix a command with watch to have ot run every 2 sec to see what happens over time 
