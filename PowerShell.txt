@@ -36,3 +36,6 @@ fl # formats list of properties in which every item is on a new line
 gal # gets the aliases for the current session
 
 gci # Get-ChildItem # gets the files and folders in a file system drive
+
+
+Get-EventLog # used to view vent logs (Get-EventLog -Log "Application" )
