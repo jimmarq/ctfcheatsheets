@@ -72,3 +72,4 @@ grep # searches the contents of a file
 clear # clears out existing terminal screen
 
 mtr # runs a ping and a traceroute at the same time 
+shuf # will selcet random file @ path ( ls | shuf)
