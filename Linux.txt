@@ -12,9 +12,9 @@ df # check disk space usage
 du #used to estimate file space usage (ex: "du -c" shows the full output and append a total line)
 mv #moves files/directories from one place to another (ex: "mv myfile mynewfilename" # renames 'myfile' to 'mynewfilename')
 pwd # shows the present working directory
-grep # search the contents of a file 
 chown # allows you to change the owner and group owner of a file
 traceroute #Trace the route to HOST 
+
 
 cat # the cat command which short for “concatenate”, lists the contents of files to the terminal window
 
@@ -54,3 +54,21 @@ nslookup # follow command with ip address to show the ip adresses data
 alias # changes a command (alias ls -l will make ls print on the screen as ls -l)
 unalias # undo an alias previously stated
 whois # finds information on the owner of the domain
+<<<<<<< HEAD
+
+chmod # changes access permission of file system objects
+adduser # creates a new user
+kill # stops a process that may be stuck
+comm # compares 2 files for common and distinct lines
+less # allows users to navigate within a file in both directions while not interrupting the session
+wget # downloads files from the web right from the terminal
+which # searches executable files
+locate # finds the specific location of a file
+grep # searches the contents of a file
+clear # clears out existing terminal screen
+
+=======
+cut # cut data from a file or specific line
+/etc/gshadow # place where encrypted passwords are stored
+/etc/passwd # shows user names with associates group Id as well as root
+>>>>>>> 582820ed94f78ae0875945e9f55ac1d689a97ba7
