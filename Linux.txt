@@ -71,4 +71,4 @@ locate # finds the specific location of a file
 grep # searches the contents of a file
 clear # clears out existing terminal screen
 
-
+mtr # runs a ping and a traceroute at the same time 
