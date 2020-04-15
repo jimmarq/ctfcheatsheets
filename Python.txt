@@ -16,3 +16,13 @@ Methods for strings (a = CoW)
 .replace() #replaces given string with another (ex: "a.replace('c','h')" Output: how)
 .split() #splits a string into a list (ex[a=Good Morning]:"a.split(' ')" Output: ['Good', 'Morning'])
 
+Print(): Prints text to the screen. I.e Print("hello world") will return hello world.
+
+$ pip install emoji : i.e from emoji import emojize
+print(emojize(":thumbs_up:")) will give you a thumbs up 
+
+$ pip install howdoi : will return code from 	StackOverflow and give you a result based on 	your quetion. i.e howdoi vertical align css
+
+$ import wikipedia : Makes accessing the API very easy. 
+
+$ import antigravity : sticking to its comical roots python goes beyond gravity with this one. 
