@@ -48,3 +48,9 @@ nano  # text editor that shows colors
 sudo  # SuperUser Do 
 apt-get # to install packages 
 hostname -I # give you your IP address in your network
+
+crontab -e # create an instance that happens at a specific point in time that can repeate (ex. a beep at 12:04 every day, a reminder everyother friday, etc.)
+nslookup # follow command with ip address to show the ip adresses data
+alias # changes a command (alias ls -l will make ls print on the screen as ls -l)
+unalias # undo an alias previously stated
+whois # finds information on the owner of the domain
