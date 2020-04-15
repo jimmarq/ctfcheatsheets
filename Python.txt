@@ -6,4 +6,8 @@ pythong myscript.py # runs pythonscript
 
 graft dir # includes all files under dir
 
-len() #returns number of elements in list or characters in string (ex: In[1]: len('Welcome!') Out[1]: 8
+len() #returns number of elements in list or characters in string (ex: In[1]: len('Welcome!') Out[1]: 8)
+
+
+Methods for strings (a = CoW)
+.lower() #returns lowercase version of string (ex "a.lower()" Output: cow)
