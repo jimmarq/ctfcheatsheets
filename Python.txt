@@ -12,4 +12,5 @@ len() #returns number of elements in list or characters in string (ex: In[1]: le
 Methods for strings (a = CoW)
 .lower() #returns lowercase version of string (ex: "a.lower()" Output: cow)
 .upper() #returns uppercase version of string (ex: "a.upper()" Output: COW)
-.strip() # removes blank spaces from beginning and end of string (ex[a = '   Cow  ']: "a.strip()" Output: 'Cow')
+.strip() #removes blank spaces from beginning and end of string (ex[a = '   Cow  ']: "a.strip()" Output: 'Cow')
+.replace() #replaces given string with another (ex: "a.replace('c','h')" Output: how)
