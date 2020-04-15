@@ -10,6 +10,7 @@ len() #returns number of elements in list or characters in string (ex: In[1]: le
 
 $ pip install bashplotlib  - will enable graphs in the console 
 
+from __future__ import print_function - will fetch the updated version of the called function 
 
 Methods for strings (a = CoW)
 .lower() #returns lowercase version of string (ex: "a.lower()" Output: cow)
