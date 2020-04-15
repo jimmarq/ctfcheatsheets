@@ -9,7 +9,7 @@ route # displays IP route table
 netstat # displays useful network subsystem information
 nmap # a network mapping tool
 nslookup # a command line utility that queries DNS servers
-
+host # used to look up dns info 
 Windows
 ipconfig # Basic IP information
 sudo apt-get install net-tools # will install basic network tools on linux
@@ -24,3 +24,4 @@ nslookup # finds IP address associated with the domain name that is given
 telnet :  allows users to remotely access another computer such as a server, network device, or other computer
 
 getmac : displays MAC address for local system 
+
