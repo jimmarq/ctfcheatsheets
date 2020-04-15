@@ -20,3 +20,7 @@ ipconfig /release #releases your current ip address
 systeminfo # shows you system information, such as processor details, version of windows, computer model
 
 nslookup # finds IP address associated with the domain name that is given
+
+telnet :  allows users to remotely access another computer such as a server, network device, or other computer
+
+getmac : displays MAC address for local system 
