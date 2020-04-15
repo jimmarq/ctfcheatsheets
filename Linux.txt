@@ -73,3 +73,4 @@ clear # clears out existing terminal screen
 
 mtr # runs a ping and a traceroute at the same time 
 shuf # will selcet random file @ path ( ls | shuf)
+last # will show the history of the last logged in users 
