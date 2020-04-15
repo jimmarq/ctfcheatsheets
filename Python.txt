@@ -11,3 +11,4 @@ len() #returns number of elements in list or characters in string (ex: In[1]: le
 
 Methods for strings (a = CoW)
 .lower() #returns lowercase version of string (ex "a.lower()" Output: cow)
+.upper() #returns uppercase version of string (ex "a.upper()" Output: COW)
