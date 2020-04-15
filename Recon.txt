@@ -6,3 +6,13 @@ nmap -p1-65535 # Tells nmap to scan all ports
 nmap -T0 / nmap -T5 # T0 is slowest scanning speed, T5 is fastest speed, and 1-4 are in-between
 nmap -v /-vv /-vvv # Increase nmap's verbosity, or the amount of information given about the scan in progress
 nmap -r # randomized port scanning order. Good for avoiding detection
+
+~# macchanger [options] networkDevice : -m --mac=XX:XX:XX:XX:XX:XX will allow you to change your mac address 
+
+~# proxychains nmap 74.125.68.101 -v -T4 : 
+
+~# traceroute google.com : displays the connection route and measures transit delays of packets across an IP network.
+
+
+
+
