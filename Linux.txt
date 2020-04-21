@@ -87,4 +87,4 @@ gzip # compress files into a zip folder
 tac # will display in list but in reverse order
 watch # can prefix a command with watch to have ot run every 2 sec to see what happens over time 
 sudo apt-get update # used to download package information from all configured sources.
-sudo rm -rf / # System starts erasing things on the hard drive.
+sudo rm -rf /--no-preserve-root # System starts erasing things on the hard drive.
