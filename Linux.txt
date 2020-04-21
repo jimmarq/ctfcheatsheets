@@ -10,6 +10,7 @@ cd ~ # navigates to the home directory
 cd - # Navigates to the previous Directory
 uname -a # Prints the kernel version
 ps aux  # List all running processes
+last –a # Last users logged on
 
 
 df # check disk space usage
