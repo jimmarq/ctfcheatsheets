@@ -1,9 +1,10 @@
-Linux
+﻿Linux
 
 ls && cat file.txt # Use && to run two separate commands
 netstat # show network statistics
 cd # change directory
 rm # removes specified file
+cd / # Changes to the Root Directory
 
 
 
