@@ -27,3 +27,4 @@ telnet :  allows users to remotely access another computer such as a server, net
 getmac : displays MAC address for local system 
 
 pathping # is a combination of Ping and Tracert. Where a ping command only test the network connection between the source and the destination
+arp –d #  to flush the ARP cache.
