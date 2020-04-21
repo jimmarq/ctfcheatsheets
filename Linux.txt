@@ -62,7 +62,7 @@ ifconfig # shows network interfaces on your device
 
 chmod # changes access permission of file system objects
 adduser # creates a new user
-kill# stops a process that may be stuck
+kill # stops a process that may be stuck
 comm # compares 2 files for common and distinct lines
 less # allows users to navigate within a file in both directions while not interrupting the session
 wget # downloads files from the web right from the terminal
