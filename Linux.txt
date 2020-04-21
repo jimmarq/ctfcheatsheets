@@ -64,6 +64,7 @@ whois # finds information on the owner of the domain
 cut # cut data from a file or specific line
 /etc/gshadow # place where encrypted passwords are stored
 /etc/passwd # shows user names with associates group Id as well as root
+vi # a full screen editor with a command mode and insert more 
 ifconfig # shows network interfaces on your device
 
 chmod # changes access permission of file system objects
