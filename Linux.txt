@@ -52,6 +52,7 @@ cp    # copy a file
 echo  # move data into a file 
 nano  # text editor that shows colors 
 sudo  # SuperUser Do 
+#You can also use su to switch to root, but this is not recommended
 apt-get # to install packages 
 hostname -I # give you your IP address in your network
 
