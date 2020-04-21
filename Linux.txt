@@ -4,6 +4,8 @@ ls && cat file.txt # Use && to run two separate commands
 netstat # show network statistics
 cd # change directory
 rm # removes specified file
+# Be careful to avoid rm -rf /, as this will tell Linux to delete every file on your computer
+
 cd / # Changes to the Root Directory
 cd .. # Changes to Parent Directory
 29d80aaa1bea037345665ef57be2de98b3bef8b2
