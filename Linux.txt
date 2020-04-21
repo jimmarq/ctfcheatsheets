@@ -52,6 +52,7 @@ cp    # copy a file
 echo  # move data into a file 
 nano  # text editor that shows colors 
 sudo  # SuperUser Do 
+#You can also use su to switch to root, but this is not recommended
 apt-get # to install packages 
 hostname -I # give you your IP address in your network
 
@@ -63,7 +64,8 @@ whois # finds information on the owner of the domain
 cut # cut data from a file or specific line
 /etc/gshadow # place where encrypted passwords are stored
 /etc/passwd # shows user names with associates group Id as well as root
-vi # a full screen editor with a command mode and insert more
+vi # a full screen editor with a command mode and insert more 
+# You can also use vim, a very slightly more modern version
 ifconfig # shows network interfaces on your device
 
 chmod # changes access permission of file system objects
