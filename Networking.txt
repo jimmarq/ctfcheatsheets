@@ -10,8 +10,9 @@ netstat # displays useful network subsystem information
 nmap # a network mapping tool
 nslookup # a command line utility that queries DNS servers
 host # used to look up dns info 
+
 Windows
-ipconfig # Basic IP information
+ipconfig # Basic IP information (example: ipconfig -all)
 sudo apt-get install net-tools # will install basic network tools on linux
 
 ipconfig /renew #gets you an ip address
