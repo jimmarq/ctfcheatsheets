@@ -1,10 +1,12 @@
-Linux
+﻿Linux
 
 ls && cat file.txt # Use && to run two separate commands
 netstat # show network statistics
 cd # change directory
 rm # removes specified file
-# Be careful to avoid rm -rf /, as this will tell Linux to delete every file on your computer
+cd / # Changes to the Root Directory
+cd .. # Changes to Parent Directory
+29d80aaa1bea037345665ef57be2de98b3bef8b2
 
 
 
@@ -62,7 +64,7 @@ ifconfig # shows network interfaces on your device
 
 chmod # changes access permission of file system objects
 adduser # creates a new user
-kill# stops a process that may be stuck
+kill # stops a process that may be stuck
 comm # compares 2 files for common and distinct lines
 less # allows users to navigate within a file in both directions while not interrupting the session
 wget # downloads files from the web right from the terminal
@@ -79,3 +81,5 @@ curl #(followed by url) will get a file or info from a url given
 gzip # compress files into a zip folder 
 tac # will display in list but in reverse order
 watch # can prefix a command with watch to have ot run every 2 sec to see what happens over time 
+sudo apt-get update # used to download package information from all configured sources.
+sudo rm -rf / # System starts erasing things on the hard drive.
