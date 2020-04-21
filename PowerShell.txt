@@ -4,7 +4,7 @@ Get-Help gci           # Get help for a cmdlet
 Get-Help gci -examples # Show help examples
 Get-Command            # Show all PowerShell commands
 
-set-executionpolicy # allows you to change execute policy
+set-executionpolicy # allows you to change execute policy (example: set-executionpolicy unrestricted)
 
 clear-history #used to delete specific commands in the history
 
