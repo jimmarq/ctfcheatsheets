@@ -40,6 +40,7 @@ ls -a # show hidden files in directory
 dig # query DNS name server information (ex: dig linx.org)
 
 head # print first ten lines of a file (ex: head /etc/passwd)
+#Use the -n flag to set how many lines, if you want more or less than 10
 
 tail # print last ten lines of a file (ex: tail access.log) 
 
