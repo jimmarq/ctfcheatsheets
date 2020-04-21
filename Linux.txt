@@ -65,6 +65,7 @@ cut # cut data from a file or specific line
 /etc/gshadow # place where encrypted passwords are stored
 /etc/passwd # shows user names with associates group Id as well as root
 vi # a full screen editor with a command mode and insert more 
+# You can also use vim, a very slightly more modern version
 ifconfig # shows network interfaces on your device
 
 chmod # changes access permission of file system objects
