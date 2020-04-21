@@ -4,7 +4,7 @@ Get-Help gci           # Get help for a cmdlet
 Get-Help gci -examples # Show help examples
 Get-Command            # Show all PowerShell commands
 
-set-executionpolicy # allows you to change execute policy
+set-executionpolicy # allows you to change execute policy (example: set-executionpolicy unrestricted)
 
 clear-history #used to delete specific commands in the history
 
@@ -25,7 +25,7 @@ Debug-Process # allows to debug a process
 
 
 cat # gets the contents of a file
-chdir # sets the current working location to a specified location
+chdir # sets the current working location to a specified location (example: chdir c:\Users\)
 clear # clears the display of the host 
 
 copy, cp, or cpi # will copy and item for you to another location
