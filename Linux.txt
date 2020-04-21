@@ -4,11 +4,9 @@ ls && cat file.txt # Use && to run two separate commands
 netstat # show network statistics
 cd # change directory
 rm # removes specified file
-# Be careful to avoid rm -rf /, as this will tell Linux to delete every file on your computer
-
 cd / # Changes to the Root Directory
 cd .. # Changes to Parent Directory
-29d80aaa1bea037345665ef57be2de98b3bef8b2
+cd ~ # navigates to the home directory
 
 
 
@@ -31,7 +29,6 @@ find # searches through files, strings, and directories to find anything that ha
 sha1sum # generate a sha1sum for the message digest of a file, string, IP address, etc.
 
 ls -a # show hidden files in directory
-# These hidden files include . .., which are used to navigate to the current directory and one directory up, respectively
 
 > # output redirect, takes the command to the left of the '>' operator and outputs it into what is on the right side (ex: music.mp3 > /user/music)
 
@@ -40,7 +37,6 @@ ls -a # show hidden files in directory
 dig # query DNS name server information (ex: dig linx.org)
 
 head # print first ten lines of a file (ex: head /etc/passwd)
-#Use the -n flag to set how many lines, if you want more or less than 10
 
 tail # print last ten lines of a file (ex: tail access.log) 
 
@@ -52,7 +48,6 @@ cp    # copy a file
 echo  # move data into a file 
 nano  # text editor that shows colors 
 sudo  # SuperUser Do 
-#You can also use su to switch to root, but this is not recommended
 apt-get # to install packages 
 hostname -I # give you your IP address in your network
 
@@ -64,8 +59,7 @@ whois # finds information on the owner of the domain
 cut # cut data from a file or specific line
 /etc/gshadow # place where encrypted passwords are stored
 /etc/passwd # shows user names with associates group Id as well as root
-vi # a full screen editor with a command mode and insert more 
-# You can also use vim, a very slightly more modern version
+vi # a full screen editor with a command mode and insert more
 ifconfig # shows network interfaces on your device
 
 chmod # changes access permission of file system objects
