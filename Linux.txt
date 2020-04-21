@@ -31,6 +31,7 @@ find # searches through files, strings, and directories to find anything that ha
 sha1sum # generate a sha1sum for the message digest of a file, string, IP address, etc.
 
 ls -a # show hidden files in directory
+# These hidden files include . .., which are used to navigate to the current directory and one directory up, respectively
 
 > # output redirect, takes the command to the left of the '>' operator and outputs it into what is on the right side (ex: music.mp3 > /user/music)
 
@@ -39,6 +40,7 @@ ls -a # show hidden files in directory
 dig # query DNS name server information (ex: dig linx.org)
 
 head # print first ten lines of a file (ex: head /etc/passwd)
+#Use the -n flag to set how many lines, if you want more or less than 10
 
 tail # print last ten lines of a file (ex: tail access.log) 
 
