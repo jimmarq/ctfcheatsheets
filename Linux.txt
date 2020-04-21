@@ -8,7 +8,7 @@ cd / # Changes to the Root Directory
 cd .. # Changes to Parent Directory
 cd ~ # navigates to the home directory
 cd - # Navigates to the previous Directory
-
+uname -a # Prints the kernel version
 
 
 df # check disk space usage
