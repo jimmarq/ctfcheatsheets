@@ -11,6 +11,7 @@ cd - # Navigates to the previous Directory
 uname -a # Prints the kernel version
 ps aux  # List all running processes
 last –a # Last users logged on
+dmesg # Information from the last system boot
 
 
 df # check disk space usage
