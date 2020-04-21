@@ -9,6 +9,7 @@ cd .. # Changes to Parent Directory
 cd ~ # navigates to the home directory
 cd - # Navigates to the previous Directory
 uname -a # Prints the kernel version
+ps aux  # List all running processes
 
 
 df # check disk space usage
