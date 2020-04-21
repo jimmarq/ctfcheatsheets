@@ -5,7 +5,7 @@ netstat # show network statistics
 cd # change directory
 rm # removes specified file
 cd / # Changes to the Root Directory
-
+cd .. # Changes to Parent Directory
 
 
 
