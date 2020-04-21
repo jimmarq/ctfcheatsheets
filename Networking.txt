@@ -28,3 +28,4 @@ getmac : displays MAC address for local system
 
 pathping # is a combination of Ping and Tracert. Where a ping command only test the network connection between the source and the destination
 arp –d #  to flush the ARP cache.
+arp –a # to view the current ARP cache which should be empty.
