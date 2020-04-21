@@ -13,6 +13,7 @@ ps aux  # List all running processes
 last –a # Last users logged on
 dmesg # Information from the last system boot
 lscpu # prints CPU information
+lshw # list hardware information
 
 
 df # check disk space usage
