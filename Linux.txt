@@ -39,7 +39,7 @@ head # print first ten lines of a file (ex: head /etc/passwd)
 
 tail # print last ten lines of a file (ex: tail access.log) 
 
-mkdir # create a folder or directory 
+mkdir # create a folder or directory (example: mkdir testFolder)
 rmdir # remove a directory  
 touch # Used to create a file
 man   # to know more about a command and how to use it
