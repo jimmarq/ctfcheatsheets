@@ -21,11 +21,12 @@ Stop-Process # terminate a process based on name/process ID (ex:Stop-Process -Na
 
 Where-Object # allows for selecting of objects from a collection based on their propery values (ex: Get-Service | Where-Object {$_.Status -eq "Stopped"})
 
-Debug-Process # allows to debug a process
-
+Debug-Process # attaches a debugger to one or more processes (ex: Debug-Process -Name "Windows Powershell")
 
 cat # gets the contents of a file
+
 chdir # sets the current working location to a specified location (example: chdir c:\Users\)
+
 clear # clears the display of the host 
 
 copy, cp, or cpi # will copy and item for you to another location
@@ -37,6 +38,5 @@ fl # formats list of properties in which every item is on a new line
 gal # gets the aliases for the current session
 
 gci # Get-ChildItem # gets the files and folders in a file system drive
-
 
 Get-EventLog # used to view vent logs (Get-EventLog -Log "Application" )
