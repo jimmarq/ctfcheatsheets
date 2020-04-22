@@ -29,7 +29,8 @@ chdir # sets the current working location to a specified location (example: chdi
 clear # clears the display of the host 
 
 copy, cp, or cpi # will copy and item for you to another location
-del # deletes files and folder
+
+del (aka) Remove-Item # deletes one or more item, including files and folders (ex: Remove-Item C:\Test\*.*)
 
 fl # formats list of properties in which every item is on a new line 
 
