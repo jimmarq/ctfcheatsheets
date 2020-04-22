@@ -30,7 +30,7 @@ ps #shows what current processes are running
 
 w # shows what users are currently logged in and their load averages. Also shows other useful information, such as login name, remote host, etc
 
-find # searches through files, strings, and directories to find anything that has that file name that is given
+find test.txt# searches through files, strings, and directories to find anything that has that file name that is given
 
 sha1sum # generate a sha1sum for the message digest of a file, string, IP address, etc.
 
@@ -49,11 +49,11 @@ tail # print last ten lines of a file (ex: tail access.log)
 mkdir # create a folder or directory 
 rmdir # remove a directory  
 touch # Used to create a file
-man   # to know more about a command and how to use it
+man nmap   # to know more about a command and how to use it
 cp    # copy a file
 echo  # move data into a file 
-nano  # text editor that shows colors 
-sudo  # SuperUser Do 
+nano test.txt  # text editor that shows colors 
+sudo  # SuperUser Do - execute a command with root privledges
 apt-get # to install packages 
 hostname -I # give you your IP address in your network
 
@@ -68,7 +68,7 @@ cut # cut data from a file or specific line
 vi # a full screen editor with a command mode and insert more
 ifconfig # shows network interfaces on your device
 
-chmod # changes access permission of file system objects
+chmod 777 # changes access permission of file system objects. 777 gives it full access.
 adduser # creates a new user
 kill # stops a process that may be stuck
 comm # compares 2 files for common and distinct lines
