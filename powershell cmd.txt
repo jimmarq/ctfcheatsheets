@@ -1,0 +1,10 @@
+Get-process : this diplays a list of all the processes that are currently running on the system.
+
+
+Get-eventlog : diplays the sytems log events and allows you to see them through different parameters.
+
+
+Stop-process: this allows you to stop proecess through powershell. 
+To use this command you will need the process ID, or the name of the application/process/
+
+GCI (get-childitem): gets items of from 1 or 2 loctions.
