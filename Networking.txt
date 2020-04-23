@@ -15,3 +15,5 @@ It also eliminates the naming of connections and gives you an ip, this allows th
 arp : can help you trace hostnames to MAC addresses when looking into the ARP cache
 
 tracert hostname: will trace the amount of hops it takes for your system to access the domain you're attempting to get to
+
+ifconfig eth0 promisc : enables promiscuous mode for eth0
