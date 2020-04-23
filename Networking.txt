@@ -11,3 +11,5 @@ sudo apt-get install net-tools # will install basic network tools on linux
 
 Netstat -ano :  this command shows all current connections and protocols. The ( -ano ) helps stucture the data so that it shows the process ID.
 It also eliminates the naming of connections and gives you an ip, this allows the command to run faster.
+
+arp : can help you trace hostnames to MAC addresses when looking into the ARP cache
