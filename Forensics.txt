@@ -3,3 +3,9 @@ Forensics
 Linux tools
 file test.jpg # See basic file information
 
+
+
+Digital Forensics:  is a process of preservation, identification, extraction, and documentation of computer evidence which can be used by the court of law.
+
+**ProDiscover Forensic:
+**allows you to copy and extract information from a disk
