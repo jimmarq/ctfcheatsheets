@@ -6,7 +6,7 @@ Get-Command            # Show all PowerShell commands
 
 set-executionpolicy # allows you to change execute policy (example: set-executionpolicy unrestricted)
 
-clear-history #used to delete specific commands in the history
+clear-history #used to delete specific commands in the history.
 
 copy-item # takes an item and copies it to another location
 
