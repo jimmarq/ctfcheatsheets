@@ -1,4 +1,4 @@
-Linux
+﻿Linux
 
 ls && cat file.txt # Use && to run two separate commands
 netstat # show network statistics
@@ -8,7 +8,7 @@ rm # removes specified file
 
 
 
-df # check disk space usage
+df # check disk space usage (Ex. df -a It includes all the dummy files also in the output which are actually having zero block sizes.)
 du #used to estimate file space usage (ex: "du -c" shows the full output and append a total line)
 mv #moves files/directories from one place to another (ex: "mv myfile mynewfilename" # renames 'myfile' to 'mynewfilename')
 pwd # shows the present working directory
@@ -38,13 +38,13 @@ head # print first ten lines of a file (ex: head /etc/passwd)
 
 tail # print last ten lines of a file (ex: tail access.log) 
 
-mkdir # create a folder or directory 
+mkdir # create a folder or directory (Ex.mkdir –p directory/path/newdir)
 rmdir # remove a directory  
-touch # Used to create a file
+touch # Used to create a file (Ex. touch myfile)
 man   # to know more about a command and how to use it
 cp    # copy a file
-echo  # move data into a file 
-nano  # text editor that shows colors 
+echo  # move data into a file (Ex. echo Hello, World!)
+nano  # text editor that shows colors (Ex.nano file1.php)
 sudo  # SuperUser Do 
 apt-get # to install packages 
 hostname -I # give you your IP address in your network
