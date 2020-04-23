@@ -10,3 +10,15 @@ Asymmetric Algorithms
 
 Other Algorithms
 * Caesar Cipher - simple rotation (example: abc -> bcd)
+
+SHA1 Hashing
+* sha1sum (file to be hashed)
+
+SHA256 Hashing
+* sha256 (file to be hashed)
+
+SHA512 Hashing
+* sha512sum (file to be hashed)
+
+MD5 Hashing
+* echo (string) | md5sum

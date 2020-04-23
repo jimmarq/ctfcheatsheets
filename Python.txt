@@ -1,3 +1,31 @@
 Python
 
 python file.py # Run a python file
+
+pythong myscript.py # runs pythonscript
+
+graft dir # includes all files under dir
+
+len() #returns number of elements in list or characters in string (ex: In[1]: len('Welcome!') Out[1]: 8)
+
+$ pip install bashplotlib  # will enable graphs in the console 
+
+from __future__ import print_function # will fetch the updated version of the called function 
+
+Methods for strings (a = CoW)
+.lower() #returns lowercase version of string (ex: "a.lower()" Output: cow)
+.upper() #returns uppercase version of string (ex: "a.upper()" Output: COW)
+.strip() #removes blank spaces from beginning and end of string (ex[a = '   Cow  ']: "a.strip()" Output: 'Cow')
+.replace() #replaces given string with another (ex: "a.replace('c','h')" Output: how)
+.split() #splits a string into a list (ex[a=Good Morning]:"a.split(' ')" Output: ['Good', 'Morning'])
+
+Print(): Prints text to the screen. I.e Print("hello world") will return hello world.
+
+$ pip install emoji : i.e from emoji import emojize
+print(emojize(":thumbs_up:")) will give you a thumbs up 
+
+$ pip install howdoi : will return code from 	StackOverflow and give you a result based on 	your quetion. i.e howdoi vertical align css
+
+$ import wikipedia : Makes accessing the API very easy. 
+
+$ import antigravity : sticking to its comical roots python goes beyond gravity with this one. 
