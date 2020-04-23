@@ -4,7 +4,7 @@ Get-Help gci           # Get help for a cmdlet
 Get-Help gci -examples # Show help examples
 Get-Command            # Show all PowerShell commands
 
-set-executionpolicy # allows you to change execute policy
+set-executionpolicy # allows you to change execute policy (example: set-executionpolicy unrestricted)
 
 clear-history #used to delete specific commands in the history
 
@@ -14,28 +14,29 @@ New-Item # create a new file or folder depending on location of item (ex: New-It
 
 Sort-Object # sort objects by property values (ex: gci -Path C:\Test | Sort-Object)
 
-Get-Process # list all currrntly running processes 
+Get-Process # list all currrently running processes (ex: Get-Process -Id 1)
 
 Stop-Process # terminate a process based on name/process ID (ex:Stop-Process -Name notepad<br> Stop-Process -ID 2345)
 	     #process ID may change from session to session
 
-Where-Object # allows to filter a dataset with a pipe 
+Where-Object # allows for selecting of objects from a collection based on their propery values (ex: Get-Service | Where-Object {$_.Status -eq "Stopped"})
 
-Debug-Process # allows to debug a process
-
+Debug-Process # attaches a debugger to one or more processes (ex: Debug-Process -Name "Windows Powershell")
 
 cat # gets the contents of a file
-chdir # sets the current working location to a specified location
+
+chdir # sets the current working location to a specified location (example: chdir c:\Users\)
+
 clear # clears the display of the host 
 
 copy, cp, or cpi # will copy and item for you to another location
-del # deletes files and folder
+
+del (aka) Remove-Item # deletes one or more item, including files and folders (ex: Remove-Item C:\Test\*.*)
 
 fl # formats list of properties in which every item is on a new line 
 
 gal # gets the aliases for the current session
 
 gci # Get-ChildItem # gets the files and folders in a file system drive
-
 
 Get-EventLog # used to view vent logs (Get-EventLog -Log "Application" )

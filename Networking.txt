@@ -12,7 +12,7 @@ nslookup # a command line utility that queries DNS servers
 host # used to look up dns info 
 
 Windows
-ipconfig # Basic IP information
+ipconfig # Basic IP information (example: ipconfig -all)
 sudo apt-get install net-tools # will install basic network tools on linux
 
 ipconfig /renew #gets you an ip address
@@ -26,3 +26,6 @@ telnet :  allows users to remotely access another computer such as a server, net
 
 getmac : displays MAC address for local system 
 
+pathping # is a combination of Ping and Tracert. Where a ping command only test the network connection between the source and the destination
+arp –d #  to flush the ARP cache.
+arp –a # to view the current ARP cache which should be empty.

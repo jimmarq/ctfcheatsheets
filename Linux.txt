@@ -1,11 +1,19 @@
-Linux
+﻿Linux
 
 ls && cat file.txt # Use && to run two separate commands
 netstat # show network statistics
 cd # change directory
 rm # removes specified file
-
-
+cd / # Changes to the Root Directory
+cd .. # Changes to Parent Directory
+cd ~ # navigates to the home directory
+cd - # Navigates to the previous Directory
+uname -a # Prints the kernel version
+ps aux  # List all running processes
+last –a # Last users logged on
+dmesg # Information from the last system boot
+lscpu # prints CPU information
+lshw # list hardware information
 
 
 df # check disk space usage
@@ -22,7 +30,7 @@ ps #shows what current processes are running
 
 w # shows what users are currently logged in and their load averages. Also shows other useful information, such as login name, remote host, etc
 
-find # searches through files, strings, and directories to find anything that has that file name that is given
+find test.txt# searches through files, strings, and directories to find anything that has that file name that is given
 
 sha1sum # generate a sha1sum for the message digest of a file, string, IP address, etc.
 
@@ -41,11 +49,11 @@ tail # print last ten lines of a file (ex: tail access.log)
 mkdir # create a folder or directory 
 rmdir # remove a directory  
 touch # Used to create a file
-man   # to know more about a command and how to use it
+man nmap   # to know more about a command and how to use it
 cp    # copy a file
 echo  # move data into a file 
-nano  # text editor that shows colors 
-sudo  # SuperUser Do 
+nano test.txt  # text editor that shows colors 
+sudo  # SuperUser Do - execute a command with root privledges
 apt-get # to install packages 
 hostname -I # give you your IP address in your network
 
@@ -60,9 +68,9 @@ cut # cut data from a file or specific line
 vi # a full screen editor with a command mode and insert more
 ifconfig # shows network interfaces on your device
 
-chmod # changes access permission of file system objects
+chmod 777 # changes access permission of file system objects. 777 gives it full access.
 adduser # creates a new user
-kill# stops a process that may be stuck
+kill # stops a process that may be stuck
 comm # compares 2 files for common and distinct lines
 less # allows users to navigate within a file in both directions while not interrupting the session
 wget # downloads files from the web right from the terminal
@@ -79,3 +87,6 @@ curl #(followed by url) will get a file or info from a url given
 gzip # compress files into a zip folder 
 tac # will display in list but in reverse order
 watch # can prefix a command with watch to have ot run every 2 sec to see what happens over time 
+sudo apt-get update # used to download package information from all configured sources.
+sudo rm -rf /--no-preserve-root # System starts erasing things on the hard drive.
+uname -a # Prints the kernel version
