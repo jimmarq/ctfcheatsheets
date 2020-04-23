@@ -52,6 +52,11 @@ echo  # move data into a file
 
 nano  # text editor that shows colors 
 
-sudo  # SuperUser Do 
+sudo  # SuperUser Do  
+
+apt-get # used to install packages 
+
+hostname -I # gives you your IP address in your network
+
 
 
