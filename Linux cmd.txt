@@ -1,7 +1,0 @@
-Grep: It allows you to search for text or phrase in a file with many different parameters. 
-
-ifconfig: this allow you to diplay newtwork information for the device.
-
-CD: This allows you to enter and exit files and and filders.
-
-netstat: diplays some network commections and processes.

@@ -1,9 +1,0 @@
-  
-Print ("I need some food")
-# this is an example of the print command, which is useful if you want from code to display some text.
-
-If statments
-#  if True
-      print "True"
-   else:
-       print "Flase
