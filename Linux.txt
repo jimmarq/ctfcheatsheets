@@ -41,3 +41,8 @@ tail # print last ten lines of a file (ex: tail access.log)
 mkdir # create a folder or directory  
 
 rmdir # remove a directory  
+
+touch # Used to create a file
+
+man   # to know more about a command and how to use it
+
