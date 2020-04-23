@@ -38,6 +38,7 @@ head # print first ten lines of a file (ex: head /etc/passwd)
 
 tail # print last ten lines of a file (ex: tail access.log) 
 
+<<<<<<< HEAD
 mkdir # create a folder or directory (Ex.mkdir –p directory/path/newdir)
 rmdir # remove a directory  
 touch # Used to create a file (Ex. touch myfile)
@@ -47,4 +48,26 @@ echo  # move data into a file (Ex. echo Hello, World!)
 nano  # text editor that shows colors (Ex.nano file1.php)
 sudo  # SuperUser Do 
 apt-get # to install packages 
-hostname -I # give you your IP address in your network
+=======
+mkdir # create a folder or directory  
+
+rmdir # remove a directory  
+
+touch # Used to create a file
+man   # to know more about a command and how to use it 
+
+cp    # copy a file
+
+echo  # move data into a file 
+
+nano  # text editor that shows colors 
+
+sudo  # SuperUser Do  
+
+apt-get # used to install packages 
+
+hostname -I # gives you your IP address in your network
+
+
+
+>>>>>>> 820331b30e5788ca3f7c0491a8346092714994d3
