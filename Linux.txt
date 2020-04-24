@@ -69,6 +69,7 @@ apt-get # used to install packages
 
 hostname -I # gives you your IP address in your network
 
+chmod # used to change the access permissions of file system objects.
 
 
 >>>>>>> 820331b30e5788ca3f7c0491a8346092714994d3
