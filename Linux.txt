@@ -26,7 +26,7 @@ find # searches through files, strings, and directories to find anything that ha
 
 sha1sum # generate a sha1sum for the message digest of a file, string, IP address, etc.
 
-ls -a # show hidden files in directory
+ls -a # show all hidden files in directory
 
 > # output redirect, takes the command to the left of the '>' operator and outputs it into what is on the right side (ex: music.mp3 > /user/music)
 
@@ -46,12 +46,12 @@ man   # to know more about a command and how to use it
 cp    # copy a file
 echo  # move data into a file (Ex. echo Hello, World!)
 nano  # text editor that shows colors (Ex.nano file1.php)
-sudo  # SuperUser Do 
+sudo  # SuperUser Do, also needed to install applications through the command prompt
 apt-get # to install packages 
 =======
 mkdir # create a folder or directory  
 
-rmdir # remove a directory  
+rmdir # remove a directory
 
 touch # Used to create a file
 man   # to know more about a command and how to use it 
@@ -60,7 +60,7 @@ cp    # copy a file
 
 echo  # move data into a file 
 
-nano  # text editor that shows colors 
+nano  # text editor that shows colors, can use to edit runnable files
 
 sudo  # SuperUser Do  
 
