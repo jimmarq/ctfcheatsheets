@@ -14,6 +14,9 @@ mv #moves files/directories from one place to another (ex: "mv myfile mynewfilen
 pwd # shows the present working directory
 grep # search the contents of a file 
 chown # allows you to change the owner and group owner of a file
+*chown [options] new_owner object(s)
+*chown alice file1 dir1
+
 traceroute #Trace the route to HOST 
 
 cat # the cat command which short for “concatenate”, lists the contents of files to the terminal window
@@ -54,6 +57,8 @@ mkdir # create a folder or directory
 rmdir # remove a directory
 
 touch # Used to create a file
+*touch text.text 
+
 man   # to know more about a command and how to use it 
 
 cp    # copy a file
@@ -65,6 +70,7 @@ nano  # text editor that shows colors, can use to edit runnable files
 sudo  # SuperUser Do  
 
 apt-get # used to install packages 
+*ex apt-get install nettools 
 
 hostname -I # gives you your IP address in your network
 
