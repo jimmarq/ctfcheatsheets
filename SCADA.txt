@@ -1,3 +1,5 @@
 SCADA
 
 Protect SCADA systems with internal firewalls & IPS
+
+Scada system need UPS (uninterruptible power source) so the system never goes down.
