@@ -43,7 +43,8 @@ tail # print last ten lines of a file (ex: tail access.log)
 
 <<<<<<< HEAD
 mkdir # create a folder or directory (Ex.mkdir –p directory/path/newdir)
-rmdir # remove a directory  
+rmdir # remove a directory 
+chdir # Display the name of the current directory or cchanges the current folder 
 touch # Used to create a file (Ex. touch myfile)
 man   # to know more about a command and how to use it
 cp    # copy a file
