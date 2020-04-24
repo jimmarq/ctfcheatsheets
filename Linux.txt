@@ -3,6 +3,7 @@
 ls && cat file.txt # Use && to run two separate commands
 netstat # show network statistics
 cd # change directory
+* cd /   # root dirc of current drive 
 rm # removes specified file
 
 
@@ -14,6 +15,9 @@ mv #moves files/directories from one place to another (ex: "mv myfile mynewfilen
 pwd # shows the present working directory
 grep # search the contents of a file 
 chown # allows you to change the owner and group owner of a file
+*chown [options] new_owner object(s)
+*chown alice file1 dir1
+
 traceroute #Trace the route to HOST 
 
 cat # the cat command which short for “concatenate”, lists the contents of files to the terminal window
@@ -40,8 +44,7 @@ tail # print last ten lines of a file (ex: tail access.log)
 
 <<<<<<< HEAD
 mkdir # create a folder or directory (Ex.mkdir –p directory/path/newdir)
-rmdir # remove a directory 
-chdir # Display the name of the current directory or cchanges the current folder 
+rmdir # remove a directory  
 touch # Used to create a file (Ex. touch myfile)
 man   # to know more about a command and how to use it
 cp    # copy a file
@@ -55,6 +58,8 @@ mkdir # create a folder or directory
 rmdir # remove a directory
 
 touch # Used to create a file
+*touch text.text 
+
 man   # to know more about a command and how to use it 
 
 cp    # copy a file
@@ -66,6 +71,7 @@ nano  # text editor that shows colors, can use to edit runnable files
 sudo  # SuperUser Do  
 
 apt-get # used to install packages 
+*ex apt-get install nettools 
 
 hostname -I # gives you your IP address in your network
 
