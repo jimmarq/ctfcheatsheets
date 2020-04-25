@@ -23,6 +23,7 @@ traceroute #Trace the route to HOST
 cat # the cat command which short for “concatenate”, lists the contents of files to the terminal window
 
 ps #shows what current processes are running
+ps -C command_name #Selects process by command name
 
 w # shows what users are currently logged in and their load averages. Also shows other useful information, such as login name, remote host, etc
 
