@@ -17,3 +17,4 @@ arp : can help you trace hostnames to MAC addresses when looking into the ARP ca
 tracert hostname: will trace the amount of hops it takes for your system to access the domain you're attempting to get to
 
 ifconfig eth0 promisc : enables promiscuous mode for eth0
+ifconfig eth0 –promisc: disables promiscuous mode for eth0
