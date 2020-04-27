@@ -27,7 +27,8 @@ cat # gets the contents of a file
 
 chdir # sets the current working location to a specified location (example: chdir c:\Users\)
 
-clear # clears the display of the host 
+clear # clears the display of the host
+#cls or Clear-Host clears current display 
 
 copy, cp, or cpi # will copy and item for you to another location
 
