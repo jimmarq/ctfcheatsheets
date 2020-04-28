@@ -22,7 +22,7 @@ traceroute #Trace the route to HOST
 
 cat # the cat command which short for “concatenate”, lists the contents of files to the terminal window
 
-ps #shows what current processes are running
+ps # shows what current processes are running.
 ps -A # View all the running processes ex:[root@rhel7 ~]# ps -A
 ps -e # View all the running processesex:[root@rhel7 ~]# ps -e
 ps -C command_name #Selects process by command name
