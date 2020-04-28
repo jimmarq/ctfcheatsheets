@@ -9,12 +9,12 @@ rm # removes specified file
 
 
 
-df # check disk space usage (Ex. df -a It includes all the dummy files also in the output which are actually having zero block sizes.)
-du #used to estimate file space usage (ex: "du -c" shows the full output and append a total line)
-mv #moves files/directories from one place to another (ex: "mv myfile mynewfilename" # renames 'myfile' to 'mynewfilename')
-pwd # shows the present working directory
-grep # search the contents of a file 
-chown # allows you to change the owner and group owner of a file
+df # check disk space usage (Ex. df -a It includes all the dummy files also in the output which are actually having zero block sizes).
+du #used to estimate file space usage (ex: "du -c" shows the full output and append a total line).
+mv #moves files/directories from one place to another (ex: "mv myfile mynewfilename" # renames 'myfile' to 'mynewfilename').
+pwd # shows the present working directory.
+grep # search the contents of a file.
+chown # allows you to change the owner and group owner of a file.
 *chown [options] new_owner object(s)
 *chown alice file1 dir1
 
