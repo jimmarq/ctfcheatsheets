@@ -6,6 +6,19 @@ cd # change directory
 * cd /   # root dirc of current drive 
 rm # removes specified file
 
+sudo !! # redo the last command but as root
+
+ctrl+x+e # open an editor to run a command
+
+# create a fast ram disk
+mkdir -p /mnt/ram
+mount -t tmpfs tmpfs /mnt/ram -0 size=8192M
+
+#dont add command to history 
+ ls -l # (make sure to add the leading space as this is very important)
+
+fc #opens last command in editor to change a mistake
+
 
 
 
