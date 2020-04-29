@@ -19,7 +19,23 @@ mount -t tmpfs tmpfs /mnt/ram -0 size=8192M
 
 fc #opens last command in editor to change a mistake
 
+# tunel with ssh (local port 3337 -> remote host's 127.0.0.1 on port 6379)
+#good way to acces private data on cloud server without exposing port # publicly
+ssh -L 3337:127.0.0.1:6379 root@emkc.org -N
 
+bg #put somthing in the background
+
+#create folders quickly, in this case 6. -p creates parent folders
+mkdir -p folder/{sub1,sub2}/{sub1,sub2,sub3}
+# if you need 100 folders with 100 folders in each
+mkdir -p folder/{1..100}/{1..100}
+# this will create 1000 folders with one command. 
+
+#intercept stdout and log to a file
+cat file | tee -a log | cat > /dev/null
+
+#exit terminal and leave all processes running
+disown -a && exit
 
 
 df # check disk space usage (Ex. df -a It includes all the dummy files also in the output which are actually having zero block sizes).
